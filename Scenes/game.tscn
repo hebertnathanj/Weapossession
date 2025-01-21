@@ -1,8 +1,8 @@
-[gd_scene load_steps=2 format=3 uid="uid://bhn5ruoy24m4m"]
+[gd_scene load_steps=2 format=3 uid="uid://mlmv34m313yo"]
 
-[ext_resource type="PackedScene" uid="uid://bnf31r5w8t2pu" path="res://player.tscn" id="1_qi512"]
+[ext_resource type="PackedScene" uid="uid://bnf31r5w8t2pu" path="res://Scenes/player.tscn" id="1_mfeqw"]
 
 [node name="Game" type="Node2D"]
 
-[node name="CharacterBody2D" parent="." instance=ExtResource("1_qi512")]
+[node name="CharacterBody2D" parent="." instance=ExtResource("1_mfeqw")]
 position = Vector2(609, 337)
